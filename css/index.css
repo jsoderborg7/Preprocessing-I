@@ -137,13 +137,15 @@ body {
 }
 .container {
   width: 100%;
+  background-color: #d8e1e3;
 }
 header {
   width: 100%;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 2px solid grey;
 }
 header nav {
   width: 75%;
@@ -161,9 +163,11 @@ header nav a {
   justify-content: space-evenly;
   width: 100%;
   margin: auto;
+  border-bottom: 2px solid grey;
 }
 .topContent h1 {
   font-size: 5rem;
+  font-weight: bold;
 }
 @media screen and (max-width: 500px) {
   .topContent h1 {
@@ -172,6 +176,7 @@ header nav a {
 }
 .topContent h2 {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 @media screen and (max-width: 500px) {
   .topContent h2 {
@@ -197,11 +202,13 @@ header nav a {
   width: 50%;
   margin: auto;
   height: auto;
+  padding: 3%;
 }
 .middleContent .textContent h2 {
   font-size: 2.5rem;
   text-align: center;
   padding-bottom: 5%;
+  font-weight: bold;
 }
 .middleContent .textContent p {
   font-size: 1.5rem;
@@ -218,6 +225,7 @@ header nav a {
   font-size: 2.5rem;
   text-align: center;
   padding-bottom: 5%;
+  font-weight: bold;
 }
 .middleContent .skills ul {
   font-size: 1.5rem;
@@ -232,6 +240,7 @@ header nav a {
   flex-direction: column;
   align-content: center;
   padding: 3%;
+  border-bottom: 2px solid grey;
 }
 .workHistory h2 {
   font-size: 2.5rem;
@@ -240,8 +249,6 @@ header nav a {
   font-weight: bold;
 }
 .workHistory table {
-  display: flex;
-  justify-content: space-around;
   width: 100%;
   height: auto;
   font-size: 1.5rem;
@@ -251,7 +258,7 @@ header nav a {
   font-weight: bold;
   border: 1px solid black;
   margin: auto;
-  padding: 2%;
+  padding: 1%;
   width: 33.3%;
 }
 .workHistory table tr td {
@@ -259,9 +266,9 @@ header nav a {
   margin: auto;
   padding: 2%;
   width: 33%;
+  text-align: center;
 }
 .contactInfo {
-  border: 2px solid green;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -272,7 +279,6 @@ header nav a {
   font-weight: bold;
 }
 .contactInfo form {
-  border: 2px solid blue;
   font-size: 1.5rem;
   line-height: 40px;
 }
