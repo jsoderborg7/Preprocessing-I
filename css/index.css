@@ -157,6 +157,10 @@ header nav a {
   text-decoration: none;
   font-weight: bold;
   font-size: 2rem;
+  font-family: "Sofia";
+}
+header nav a:hover {
+  color: green;
 }
 .topContent {
   display: flex;
@@ -168,6 +172,7 @@ header nav a {
 .topContent h1 {
   font-size: 5rem;
   font-weight: bold;
+  font-family: "Sofia";
 }
 @media screen and (max-width: 500px) {
   .topContent h1 {
@@ -177,6 +182,7 @@ header nav a {
 .topContent h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  font-family: "Sofia";
 }
 @media screen and (max-width: 500px) {
   .topContent h2 {
@@ -209,9 +215,11 @@ header nav a {
   text-align: center;
   padding-bottom: 5%;
   font-weight: bold;
+  font-family: "Sofia";
 }
 .middleContent .textContent p {
   font-size: 1.5rem;
+  font-family: 'Architects Daughter';
 }
 .middleContent .skills {
   width: 50%;
@@ -226,6 +234,7 @@ header nav a {
   text-align: center;
   padding-bottom: 5%;
   font-weight: bold;
+  font-family: "Sofia";
 }
 .middleContent .skills ul {
   font-size: 1.5rem;
@@ -233,6 +242,7 @@ header nav a {
   list-style-position: inside;
   justify-self: center;
   align-self: center;
+  font-family: 'Architects Daughter';
 }
 .workHistory {
   width: 100%;
@@ -247,11 +257,13 @@ header nav a {
   text-align: center;
   padding-bottom: 5%;
   font-weight: bold;
+  font-family: "Sofia";
 }
 .workHistory table {
   width: 100%;
   height: auto;
   font-size: 1.5rem;
+  font-family: 'Architects Daughter';
 }
 .workHistory table tr th {
   font-size: 1.8rem;
@@ -260,6 +272,7 @@ header nav a {
   margin: auto;
   padding: 1%;
   width: 33.3%;
+  font-family: "Sofia";
 }
 .workHistory table tr td {
   border: 1px solid black;
@@ -277,8 +290,21 @@ header nav a {
 .contactInfo h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  padding-bottom: 3%;
+  font-family: "Sofia";
 }
 .contactInfo form {
   font-size: 1.5rem;
-  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Architects Daughter';
+}
+.contactInfo form div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.contactInfo input {
+  width: 40%;
+  margin: 1%;
 }
