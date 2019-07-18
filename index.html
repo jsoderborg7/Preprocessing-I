@@ -3,17 +3,102 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+ 
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
-
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <section class="container">
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Intro</a>
+        <a href="https://jsoderborg7.github.io/portfolio-website/Portfolio/">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    
+    <section class="mainContent">
+      <div class=topContent>
+        <div class=textContent>
+          <h1>Jenn Soderborg</h1>
+          <h2>Web Dev in Training</h2>
+        </div>
+        <img src="css/images/profilePic.jpg">
+      </div>
+      
+      <div class="middleContent">
+        <div class="textContent">
+          <h2>Who am I?</h2>
+          <p>I'm Jenn, so nice of you to drop by! I'm a full stack web dev student with a love of ice cream and the great outdoors. I'm having a blast learning web dev, and I look forward to learning even more when I work with you!</p>
+        </div>
+        <div class="skills">
+          <h2>What do I bring to the table?</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Conversationally fluent in Japanese</li>
+            <li>I make great cookies</li>
+            <li>My sparkling personality</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="workHistory">
+        <h2>Work History</h2>
+        <table>
+          <tr>
+            <th>Years</th>
+            <th>Company</th>
+            <th>Title</th>
+          </tr>
+          <tr>
+            <td>Current</td>
+            <td>Lambda School</td>
+            <td>Full Time Web Dev Student</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>The Happy Turtle Kitchen</td>
+            <td>Owner/Operator</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Holman Health</td>
+            <td>Office Manager/Phlebotomist</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Dixie Regional Medical Center</td>
+            <td>Paramedic/ER Technician</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contactInfo">
+        <h2>Talk to Me!</h2>
+        <form>
+          Name:
+          <input type="text">
+          Email Address:
+          <input type="text">
+          Phone Number:
+          <input type="text">
+          <div>
+            Best Time to Contact:
+            <input type="radio" name="timeOfDay" value="morning"> Morning
+            <input type="radio" name="timeOfDay" value="afternoon"> Afternoon
+            <input type="radio" name="timeOfDay" value="evening"> Evening
+          </div>
+        </form>
+      </div>
+    </section>
+    </section>
 </body>
 </html>
