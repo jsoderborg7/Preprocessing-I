@@ -146,6 +146,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   border-bottom: 2px solid grey;
+  background-color: #94d5f7;
 }
 header nav {
   width: 75%;
@@ -203,6 +204,7 @@ header nav a:hover {
 .middleContent {
   display: flex;
   justify-items: space-between;
+  background-color: #94d5f7;
 }
 .middleContent .textContent {
   width: 50%;
@@ -286,6 +288,7 @@ header nav a:hover {
   display: flex;
   flex-direction: column;
   align-content: center;
+  background-color: #94d5f7;
 }
 .contactInfo h2 {
   font-size: 2.5rem;
